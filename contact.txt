@@ -1,0 +1,9 @@
+<!--
+<h2>Contact Me:</h2>
+<p>Mob: 07727 66 30 90</p>
+-->
+
+<form>
+Name: <input type="text" name="name" /> <br />
+Email: <input type="email" name="email" />
+</form>

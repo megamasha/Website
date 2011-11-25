@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="defaultdark.css" />
+<script type="text/javascript">
+function loadXMLDoc(sectionName)
+{
+    var sectionFile = sectionName + ".txt"
+    var xmlhttp;
+    if (window.XMLHttpRequest)
+    {// code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp=new XMLHttpRequest();
+}
+else
+{// code for IE6, IE5
+xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+}
+xmlhttp.onreadystatechange=function()
+{
+    if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+        document.getElementById("bodysection").innerHTML=xmlhttp.responseText;
+    }
+}
+xmlhttp.open("GET",sectionFile,true);
+xmlhttp.send();
+}
+</script>
+</head>
+
+<body>
+
+<div id="wrapper">
+    <h1>Rob Davies Photography</h1>
+    <hr />
+    <div id="nav">
+        <ul>
+            <li onclick="loadXMLDoc('welcome')">HOME</li>
+            <li onclick="loadXMLDoc('about')">ABOUT</li>
+            <li onclick="loadXMLDoc('gallery')">GALLERY</li>
+            <li onclick="loadXMLDoc('contact')">CONTACT</li>
+        </ul>
+    </div>
+    <div id="bodysection">
+    </div>
+    <div id="footer">
+    Copyright 2011 Rob Davies
+    </div>
+</div>
+
+</body>
+
+<script type="text/javascript">
+sectiondata = loadXMLDoc("welcome");
+document.getElementById("welcome").innerHTML=sectiondata.responsetext;
+</script>
+
+</html>

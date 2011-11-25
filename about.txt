@@ -1,0 +1,8 @@
+<h2>About Me</h2>
+<p>Hello!</p>
+<p>I'm a photographer, a programmer and a musician. I also do a little web development (I made this website myself!). I do what I do because I enjoy it, and I believe in making a good job of things.</p>
+<p>Photography started out as a hobby - when I saw something that made me think 'wow', I wanted to capture an image that would wow other people just as much.</p>
+<p>I've been a professional photographer since 2009, when I expanded from landscape and travel photography to include concerts and weddings as well as glamour and portraiture. <br />
+My photography folio is featured on this site for you to browse. You can also find links to my programming and music websites.</p>
+<p>Please contact me if you're interested in ordering prints or working with me, either as a photographer, musician or developer.</p>
+<p>This website will be eventually provide you with an automated prints odering service.</p>

@@ -1,0 +1,4 @@
+<h2>Welcome to My site!</h2>
+<p>I'm a photographer who believes in getting things right.</p>
+<p>Unfortunately, photo editing is an undeniable part of the photography world these days, but most of the photos you see on this site are either completely unedited (either on the camera or on a computer) or have only been edited to better represent how the scene <i>really</i> appeared.</p>
+<p>Please feel free to look around my site using the tabs above, browse the galleries and perhaps even drop me a line in the contact section - I'm always open to requests or suggestions for shoots, from original concepts to imitations and everything in between.</p>
